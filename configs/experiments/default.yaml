@@ -1,0 +1,21 @@
+PATHS:
+  DATA_ROOT: ./plots
+  VIS_PATH: ./plots
+
+FLOW:
+  N_FLOW: 4
+  N_BLOCK: 1
+  N_CHAN: 2
+  MLP_DIM: 64
+
+DATASET:
+  N_CLASS: 2
+
+LOSS:
+  LAMBDA: 0.0051
+
+TRAINING:
+  ITER: 1200
+  BATCH: 256
+  LR: 1e-2
+  WT_DECAY: 1e-5
